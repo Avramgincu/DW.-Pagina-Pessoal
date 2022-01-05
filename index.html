@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stilesheet.css" media="screen" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Avram Gincu</h1>
+        
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#exp">Experience</a></li>
+            <li><a href="#show">Showcase</a></li>
+            <li><a href="#social">Social</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="about" id="about">
+            <div class="foto">
+                <img src="/Imagens/foto3.png" >
+            </div>
+            
+            <div class="about-text">
+                <h3>About Me</h3>
+                My name is Avram Gincu and I study Design and Multimedia at the University of Coimbra. <br> 
+                I'm a creative person who likes challenges. I try to expand my horizons and <br> learn something new, 
+                so that in the future I can enrich my projects.
+            </div>
+        </div>
+        
+        <h1 class="title" id="exp">Experience</h1>
+        <ul class="exp">
+            <li><span class="instit"> Jest, Coimbra </span> 
+                <span class="anos"> &#8226; 1 Year</span>
+                <p>
+                    <h4>Design and Marketing Department Collaborator</h4>     
+                    I decided to join this Junior initiative in order to practice more
+that I learned on the course, my work revolved around UI/UX. Furthermore during my time at Jest 
+I was able to participate in numerous workshops that helped me develop my softskill.
+                </p>
+            </li>
+            <li><span class="instit"> EzTeams, Coimbra </span> 
+                <span class="anos"> &#8226; 3 Mounts</span>
+                <p>
+                    <h4>3D Modeling - Internship</h4>
+                    In this internship I was able to work in Blender to create an entire roman villa. 
+                    Then export my work in 360 degree, so anyone can visit the villa with 
+                    virtual reality goggles.
+                </p>
+            </li>
+            
+        </ul>
+
+        <h1 class="title">Showcase</h1>
+        <div class="show" id="show"><!--Container-->
+            
+
+            <div class="card">
+                <div class="content">
+                    <h3>MegaSmash</h3>
+                    <p>With the help of the arduino, a console was build, that came with two games.
+                       The case and the remotes were 3D Pinted, so it feel like a finished product.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=4CVtGsxXfmE"> Check it out</a>
+                </div>
+                <div class="fundo1">
+                    <img src="/Imagens/MegaSmash.png" >
+                </div>
+               
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h3>Nicolau</h3>
+                    <p>Based on a small story my grup and I developed a 2d game in Unity.
+                       With some C# coding, and entertaining platformer was created.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=pBSB6gAulc0"> Check it out</a>
+                </div>
+                <div class="fundo2">
+                    <img src="/Imagens/nicolau.png" >
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="content">
+                    <h3>OneDEI</h3>
+                    <p>This is a promotional video about my University department, DEI. 
+                       The concept was to show an entire day of a student, in and around the department. 
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=FmFfFkPFNQU"> Check it out</a>
+                </div>
+                <div class="fundo3">
+                    <img src="/Imagens/onedei.png" >
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h3>Lamb to the Slaughter</h3>
+                    <p>A small trailer that promotes a book based on the story of the Lamb of the Slaughter, 
+                        that has the same artwork has the video.
+                    </p>
+                    <a href="https://vimeo.com/385313380"> Check it out</a>
+                </div>
+                <div class="fundo4">
+                    <img src="/Imagens/lamb.png" >
+                </div>
+            </div>
+
+        </div>
+
+        <div class="social" id="social">
+            <h1>Find me at</h1>
+
+            <ul>
+                <li><a href="https://www.instagram.com/gincuavram/" class="icons"><img src="/Imagens/instagram.png" ></a></li>
+                <li><a href="https://www.facebook.com/avram.gincu" class="icons"><img src="/Imagens/facebook.png" ></a></li>
+                <li><a href="https://github.com/Avramgincu" class="icons"><img src="/Imagens/github.png" ></a></li>
+            </ul>
+
+        </div>
+
+    </main>
+
+    <footer>
+        
+    </footer>
+
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400
+        });
+    </script>
+
+</body>
+</html>
